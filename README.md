@@ -78,7 +78,7 @@ An AI-powered climate education platform that gamifies environmental learning an
 
 1. **Clone the repository**
    \`\`\`bash
-   git clone https://github.com/yourusername/vasuai-climate-platform.git
+   git clone https://github.com/Anubhab-Rakshit/vasuai-climate-platform.git
    cd vasuai-climate-platform
    \`\`\`
 
@@ -91,7 +91,7 @@ An AI-powered climate education platform that gamifies environmental learning an
 
 3. **Set up environment variables**
    Create a `.env.local` file in the root directory:
-   \`\`\`env
+   ```env
    # Supabase Configuration
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
@@ -108,7 +108,7 @@ An AI-powered climate education platform that gamifies environmental learning an
 
    # Development
    NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
-   \`\`\`
+   ```
 
 4. **Set up the database**
    Run the SQL scripts in `/scripts` folder to create the database schema:
@@ -131,7 +131,7 @@ An AI-powered climate education platform that gamifies environmental learning an
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 vasuai-climate-platform/
 ├── app/                    # Next.js App Router pages
 │   ├── globals.css        # Global styles and design tokens
@@ -145,7 +145,7 @@ vasuai-climate-platform/
 ├── public/               # Static assets and images
 ├── scripts/              # Database setup and migration scripts
 └── README.md            # Project documentation
-\`\`\`
+```
 
 ## 🎨 Design System
 
@@ -233,25 +233,7 @@ We welcome contributions to make VasuAi even better! Here's how you can help:
 - 📋 Global policy impact tracking
 - 📋 AI-generated personalized action plans
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Climate Scientists** - For providing the scientific foundation
-- **Environmental Organizations** - For mission inspiration and validation
-- **Open Source Community** - For the amazing tools and libraries
-- **Beta Testers** - For feedback and suggestions
-
-## 📞 Support
-
-- **Documentation**: [Project Wiki](https://github.com/yourusername/vasuai-climate-platform/wiki)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/vasuai-climate-platform/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/vasuai-climate-platform/discussions)
-- **Email**: support@vasuai.com
-
----
 
 **Made with 💚 for our planet's future**
 
